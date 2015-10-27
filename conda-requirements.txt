@@ -35,7 +35,6 @@ funcsigs=0.4=py27_0
 gevent=1.0.1=py27_0
 gevent-websocket=0.9.3=py27_0
 greenlet=0.4.7=py27_0
-grin=1.2.1=py27_2
 h5py=2.5.0=np19py27_1
 hdf5=1.8.15.1=2
 idna=2.0=py27_0
