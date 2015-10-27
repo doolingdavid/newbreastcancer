@@ -16,7 +16,6 @@ gnumpy==0.2
 greenlet==0.4.7
 grin==1.2.1
 gunicorn==19.3.0
-h5py==2.5.0
 html5lib==0.9999999
 idna==2.0
 ipaddress==1.0.7
