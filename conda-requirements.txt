@@ -47,7 +47,6 @@ jdcal=1.0=py27_0
 jedi=0.8.1=py27_0
 jsonschema=2.4.0=py27_0
 launcher=1.0.0=1
-libpython=1.0=py27_1
 llvmlite=0.5.0=py27_0
 lxml=3.4.4=py27_0
 markupsafe=0.23=py27_0
