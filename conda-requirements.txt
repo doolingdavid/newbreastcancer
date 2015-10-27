@@ -51,7 +51,6 @@ llvmlite=0.5.0=py27_0
 lxml=3.4.4=py27_0
 markupsafe=0.23=py27_0
 matplotlib=1.4.3=np19py27_1
-menuinst=1.0.4=py27_0
 mingw=4.7=1
 mistune=0.5.1=py27_1
 mock=1.0.1=py27_0
