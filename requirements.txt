@@ -27,7 +27,6 @@ jedi==0.8.1
 Jinja2==2.7.3
 joblib==0.8.4
 jsonschema==2.4.0
-lasagne==0.1.dev0
 lifelines==0.8.0.0
 llvmlite==0.5.0
 lxml==3.4.4
