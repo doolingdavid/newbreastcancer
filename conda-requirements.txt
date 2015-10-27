@@ -14,7 +14,6 @@ blz=0.6.2=np19py27_1
 bokeh=0.9.0=np19py27_0
 boto=2.38.0=py27_0
 bottleneck=1.0.0=np19py27_0
-cdecimal=2.3=py27_1
 certifi=14.05.14=py27_0
 cffi=1.1.0=py27_0
 clyent=0.3.4=py27_0
