@@ -816,7 +816,6 @@ def results():
         session['prob12'] = prob12
         session['prob60'] = prob60
         session['Asurv'] = list(Asurv)
-        imagehtmlcode = '<p><img src = "' + srcstring + '"' + 'alt = "previous" border="30"></p>'
         session['imagehtmlcode'] = imagehtmlcode
         return render_template('results.html',
                                prob6 = session.get('prob6'),
