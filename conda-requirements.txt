@@ -12,7 +12,6 @@ datashape=0.4.5=np19py27_0
 decorator=3.4.2=py27_0
 flask=0.10.1=py27_1
 funcsigs=0.4=py27_0
-jinja2=2.7.3=py27_2
 launcher=1.0.0=1
 libpython=1.0=py27_1
 numpy=1.9.2=py27_0
