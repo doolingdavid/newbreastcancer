@@ -226,7 +226,7 @@ def get_survival_function(document):
     prob6 = Asurv.loc[6]
     prob12 = Asurv.loc[12]
     prob60 = Asurv.loc[60]
-    return prob6, prob12, prob60, Asurv, filestringname
+    return prob6, prob12, prob60, Asurv
 
 
 
@@ -808,18 +808,14 @@ def results():
 
         print session.get('datax')
 
-        prob6, prob12, prob60, Asurv, filestringname = get_survival_function(session_data)
+        prob6, prob12, prob60, Asurv = get_survival_function(session_data)
 
-        print prob6, prob12, prob60, filestringname
+        print prob6, prob12, prob60
 
         session['prob6'] = prob6
         session['prob12'] = prob12
         session['prob60'] = prob60
         session['Asurv'] = list(Asurv)
-        session['filestringname'] = filestringname
-        srcstring = " {{ url_for('static', filename = '" + filestringname + "') }}"
-        session['srcstring'] = '"' + srcstring +'"'
-        print srcstring
         imagehtmlcode = '<p><img src = "' + srcstring + '"' + 'alt = "previous" border="30"></p>'
         session['imagehtmlcode'] = imagehtmlcode
         return render_template('results.html',
