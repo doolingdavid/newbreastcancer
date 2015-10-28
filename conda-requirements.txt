@@ -14,7 +14,7 @@ fastcache=1.0.2=py27_0
 flask=0.10.1=py27_1
 funcsigs=0.4=py27_0
 ipaddress=1.0.7=py27_0
-jinja2=2.7.3=py27_2
+jinja2
 markupsafe=0.23=py27_0
 numexpr=2.4.3=np19py27_0
 numpy=1.9.2=py27_0
