@@ -19,7 +19,6 @@ markupsafe=0.23=py27_0
 numexpr=2.4.3=np19py27_0
 numpy=1.9.2=py27_0
 pandas=0.16.2=np19py27_0
-pip=7.1.0=py27_0
 ply=3.6=py27_0
 py=1.4.27=py27_0
 pyasn1=0.1.7=py27_0
