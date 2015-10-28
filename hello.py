@@ -18,8 +18,6 @@ import numpy as np
 from sklearn.externals import joblib
 import pandas as pd
 import pylab
-import matplotlib.pyplot as plt
-import matplotlib
 from pandas import Series, DataFrame
 import urllib2, json
 from flask import make_response
@@ -33,7 +31,7 @@ import tornado.ioloop
 import tornado.options
 import tornado.autoreload
 from flask import jsonify
-matplotlib.style.use('ggplot')
+
 
 
 
