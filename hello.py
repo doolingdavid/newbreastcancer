@@ -282,11 +282,12 @@ def get_lat_lng_elevation(address):
 
 
 def run_server():
+    port = int(os.environ.get("PORT", 5000))
     http_server = tornado.httpserver.HTTPServer(
         tornado.wsgi.WSGIContainer(app)
     )
-    http_server.listen(5000)
-
+    # http_server.listen(5000)
+    http_server.listen(port)
     # Reads args given at command line (this also enables logging to stderr)
     tornado.options.parse_command_line()
 
