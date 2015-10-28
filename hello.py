@@ -17,7 +17,6 @@ import os
 import numpy as np
 from sklearn.externals import joblib
 import pandas as pd
-import pylab
 from pandas import Series, DataFrame
 import urllib2, json
 from flask import make_response
